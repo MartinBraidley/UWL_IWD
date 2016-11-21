@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title> Ealing Travel - Tourism Information </title>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="Ealing,Travel,Tourism,Information">
+	<meta name="description" content="Tourism information for the destinations offered">
+</head>
+<body>
+	<h1> Contact Us </h1>
+	<p> If you need any help or have a question, please us the form below. <br>We aim to reply within 24 hours. </p>
+<form>
+	<fieldset>
+	<legend>Personal Information</legend>
+		First Name:<br>
+		<input type="text" name="firstName"><br>
+		Surname:<br>
+		<input type="text" name="surname"><br>
+		Contact Telephone Number:<br>
+		<input type="number" name="contactNum"><br>
+		Contact Email Address:<br>
+		<input type="text" name="contactEmail"><br>
+		Number of Passengers:<br>
+		<select name="numOfPass">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5+">5+</option>
+		</select><br>
+		Requirements:<br>
+			<input type="checkbox" name="requirements" value="wifi">Wi-Fi/Internet Access<br>
+			<input type="checkbox" name="requirements" value="safe">Safe<br>
+			<input type="checkbox" name="requirements" value="selfCater">Self Catering<br>
+			<input type="checkbox" name="requirements" value="allInc">All Inclusive<br>
+			<input type="checkbox" name="requirements" value="pool">Pool<br>
+		Package Type:<br>
+			<input type="radio" name="packageType" value="flightOnly">Flight Only<br>
+			<input type="radio" name="packageType" value="flightHotel">Flighy & Hotel<br>
+		Departure Airport:<br>
+			<input type="text" name="departAirport"><br>
+		Arrival Airport:<br>
+			<input type="text" name="arrivalAirport"><br>
+		Departure Date:<br>
+			<input type="date" name="departDate"><br>
+		Return Date:<br>
+			<input type="date" name="returnDate"><br>
+		Further Information:<br>
+			<textarea rows="4" cols="50" name="furtherInfo">Enter any other information here
+			</textarea><br>
+		<button type="submit" value="Submit">Submit</button>	
+		<input type="reset">
+	</fieldset>
+	</body>
+</html>
